@@ -1,0 +1,181 @@
+
+
+git命令
+date										显示当前日期
+git --version								查看git的版本信息
+git config --global user.name				获取当前登录的用户
+git config --global user.email				获取当前登录用户的邮箱
+
+git config --global user.name 'userName'    设置git账户，userName为你的git账号，
+git config --global user.email 'email'
+
+git config -e								查看配置
+git config --global core.editor vim			修改默认的编辑器为vim
+
+git init          							把当前的目录变成可以管理的git仓库，生成隐藏.git文件
+
+ctrl+d = exit = logout						退出
+
+
+
+
+
+
+
+reset 							清屏，把git bash命令窗口中的所有内容清空。
+cat xxx						 	查看文件
+mkdir xxx						创建一个文件夹（mkdir即为：make directory）
+
+cd ..							退回到上一级目录（cd 即为：change directory，cd 和两个点点..之间有一个空格）
+cd xxx		      				切换到xxx目录下
+								当我们用cd 进入文件夹时,我们可以使用 通配符*, cd f*,  如果E盘下只有一个f开头的文件夹,它就会进入到这个文件夹
+
+touch xxx						创建一个文件				
+rm xxx					 		删除文件(rm即为：remove)
+rm xxx xxx xxx					一次删除多个文件
+rm -r xxx:  					删除xxx文件夹，删除用的是递归，先删除文件夹里面的内容，再删除文件夹( r即为：recusive，是递归的意思)
+rm -r xxx1 xxx2					一次性删除多个文件夹
+
+mv xxx1 xxx2					将文件重新命名(mv即为：move)
+mv xxx	目录名					将文件移动到别的目录
+mv xxx1 xxx2  目录名			将xxx1 xxx2 文件移动到别的目录
+mv 目录名1 目录名2				重新命名目录或者将目录转移到到别的目录之下
+
+
+
+ls								查看当前目录中的文件(ls即为：list)
+ls -a							显示包含隐藏文件和目录的信息
+ls -l(ls -l简写为：ll)							查看当前目录中的文件的详细信息，不包含隐藏文件和目录信息
+ls -al							查看当前目录中的文件的详细信息，包含隐藏文件和目录信息
+
+pwd							 	查看当前目录(pwd即为：print working directory)
+
+
+
+
+
+
+
+
+
+git add xxx.txt				 	添加到缓存去
+git add -A						全部添加到缓存区
+git commit -m "注释"		 	提交到仓库
+git checkout -- xxx.txt      	撤销修改 删除恢复
+git status					 	显示信息
+git config --list            	显示配置信息
+git reset --hard  版本号    	回退版本
+git diff xxx				 	查看修改后的数据和原本数据的区别
+
+git log						 	查看日志信息
+git log --pretty=oneline	 	用一行信息显示日志
+git reflog						查看历史记录的版本号id
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+git remote 											查看远程库的信息
+git remote -v 										查看现有远程仓库的地址url
+git remote rm origin								移除关联的远程仓库的地址
+git remote add origin 远程仓库地址					关联一个远程库
+
+git remote set-url origin git:新的url				更改仓库指向
+
+git pull origin master 								把本地仓库的变化连接到远程仓库主分支
+git pull origin master --allow-unrelated-histories 	
+
+git checkout -b 分支名称 origin/分支名称			在本地创建和远程分支对应的分支
+
+git push –u origin master 							把当前master分支推送到远程库(第一次要用-u 以后不需要，-u参数 upstream)   
+git clone 远程仓库地址								从远程库中克隆
+
+
+
+
+
+
+
+
+
+
+
+git branch									查看当前分支
+git branch -r								列出所有远程分支
+git branch -a								列出所有本地分支和远程分支
+git branch 分支名称							创建一个分支
+
+git checkout 分支名称						切换分支
+git checkout -								切换到上一个分支
+git checkout -b 新的分支名称				创建并切换分支
+
+git merge 分支名称1							合并 ‘分支名称1’ 到当前分支
+git merge --no-ff -m "注释" 分支名称		不使用fast forward合并模式
+
+git branch -d 分支名称						删除分支
+
+git branch --set-upstream-to=origin/dev dev	指定本地dev分支与远程origin/dev分支的链接
+
+
+
+因此，多人协作的工作模式通常是这样：
+
+    首先，可以试图用git push origin <branch-name>推送自己的修改；
+
+    如果推送失败，则因为远程分支比你的本地更新，需要先用git pull试图合并；
+
+    如果合并有冲突，则解决冲突，并在本地提交；
+
+    没有冲突或者解决掉冲突后，再用git push origin <branch-name>推送就能成功！
+
+如果git pull提示no tracking information，则说明本地分支和远程分支的链接关系没有创建，用命令git branch --set-upstream-to <branch-name> origin/<branch-name>。
+
+这就是多人协作的工作模式，一旦熟悉了，就非常简单。
+小结
+
+    查看远程库信息，使用git remote -v；
+
+    本地新建的分支如果不推送到远程，对其他人就是不可见的；
+
+    从本地推送分支，使用git push origin branch-name，如果推送失败，先用git pull抓取远程的新提交；
+
+    在本地创建和远程分支对应的分支，使用git checkout -b branch-name origin/branch-name，本地和远程分支的名称最好一致；
+
+    建立本地分支和远程分支的关联，使用git branch --set-upstream branch-name origin/branch-name；
+
+    从远程抓取分支，使用git pull，如果有冲突，要先处理冲突。
+
+
+
+
+
+
+
+
+
+git stash					将当前的工作现场隐藏起来
+git stash list				查看工作现场
+git stash apply				恢复工作现场
+git stash drop				删除工作现场
+git stash pop				恢复工作现场的同时删除stash
+
+
+
+
+
+
+
+
+
+
+

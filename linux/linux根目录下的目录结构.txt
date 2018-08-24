@@ -1,0 +1,30 @@
+
+	bin		存放命令或可执行文件
+	
+	boot	启动相关的配置
+	
+	dev		设备和硬件相关文件，如cpu，desk等硬件设置等
+	
+	etc		系统和软件相关的配置文件
+			如网络配置在：etc/sysconfig/network-script/ifcfg-eth0
+			修改主机名配置文件在：etc/sysconfig/network等
+			启动相关的配置：/etc/inittab
+			
+	home	存放的是普通用户的文件夹，超级管理员目录不再home下
+	
+	lib		存放的是动态链接库,因为linux是开源的,所以linux会将公用
+			的库放在lib下,类似于java工程依赖的jar包, 如果装软件的
+			时候,出现了a依赖b,b又依赖c这种情况,可以使用linux中的yum,
+			类似于java中的maven
+			
+	media	一些外置的光驱和u盘都会挂载到media文件夹中
+	
+	usr		约定俗称的存放共享软件的目录
+	
+	sbin	存放系统管理的配置
+	
+	tmp		存放临时数据
+	
+	mnt		用于挂载外部资源
+	
+	

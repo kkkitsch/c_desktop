@@ -1,0 +1,229 @@
+	
+	
+	invocation		调用，启用
+	
+	credential		信任凭证
+	
+	dashed			虚线
+	
+	encountered		遭遇，遇到
+	
+	trend			趋势，走向
+	
+	registry		登记，记录
+	
+	privilege		特权，优待
+	
+	compress		压缩，精简
+	
+	bundle			捆，一批
+	
+	recursion		递归，递推
+	
+	demand			要求，请求，需要
+	
+	features		特点，特征，起作用
+	
+	fetch			拿来，取来
+	
+	discriminate	区别，识别
+	
+	prefix			前缀
+	
+	suffix			后缀
+	
+	checkout		校验，结账
+	
+	quotation		引用
+	
+	apostrophe		撇号
+	
+	ampersand		&的记号
+	
+	schema			概要，计划
+	
+	raw				原始的，未加工的，生的
+	
+	manual			手册，指南
+	
+	profile			主页，轮廓，简介
+	
+	disabled		无用的，关闭的，禁止的
+	
+	resolution		决心，解决，分辨率
+
+	module			模块，组件
+	
+	established		建立的，创建的
+	
+	disconnect		断开，中断
+	
+	terminate		结束，终结
+	
+	suspend			暂停，延缓，挂，悬
+	
+	resume			重新开始，继续
+	
+	cascade			串联，级联，层叠
+	
+	foreground		前景，前台
+	
+	dispatcher		调度器
+	
+	async			异步的
+	
+	asynchronous	异步的
+	
+	anonymous		匿名的，无名的
+	
+	catalog			目录
+	
+	specified		指定的，详述的
+	
+	threshold		门槛，入口
+	
+	template		模版，样板
+	
+	inherited		通过继承得到的，遗传的
+	
+	obsolete		废弃的，老式的，过时的
+	
+	UML				统一建模语言
+	
+	security		安全，保证，担保
+	
+	cursor			光标
+	
+	abort			中止
+	
+	diverge			分开，偏离
+	
+	BLOG			大的二进制对象 BinaryLargedOBjects
+	
+	priority		优先
+	
+	queue			队列
+	
+	hierarchy		分层，层次
+	
+	authenticated	认证，证明，鉴定
+	
+	authentication	认证，证明，鉴定
+	
+	authorization	授权，批准
+
+	permission		允许，批准，认可
+
+	fix				修理，安装
+	
+	indicated		表明的，指示的
+	
+	wildcard		通配符
+	
+	cachiing		高速缓存
+	
+	cryptography	密码术
+	
+	current			现在的，目前的，流行的
+	
+	concurrently	同时发生的，同时完成的，同时存在的
+	
+	delegating		委派
+	
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

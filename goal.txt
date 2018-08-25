@@ -1,6 +1,6 @@
-git
+git，Linux
 
-mybatis 和spring的面试
+mybatis 和spring的面试,整合
 
 反射 映射 代理模式
 

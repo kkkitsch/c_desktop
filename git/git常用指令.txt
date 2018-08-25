@@ -178,9 +178,6 @@ git pull origin master
 git pull origin master --allow-unrelated-histories
 如果是两个不同的项目，要把两个不同的项目合并，可以使用这个命令
 
-git checkout -b 分支名称 origin/分支名称
-在本地创建和远程分支对应的分支
-
 git push –u origin master
 把当前master分支推送到远程库(第一次要用-u 以后不需要，-u参数 upstream)   
 
@@ -218,6 +215,12 @@ git checkout -
 git checkout -b 分支名称
 创建并切换分支
 
+git checkout -b 分支名称 origin/分支名称
+在本地创建和远程分支对应的分支
+
+git branch --set-upstream-to=origin/dev dev
+指定本地dev分支与远程origin/dev分支的链接
+
 git merge 分支名称1
 合并 ‘分支名称1’ 到当前分支
 
@@ -227,12 +230,11 @@ git merge --no-ff -m "注释" 分支名称
 git branch -d 分支名称
 删除分支
 
-git branch --set-upstream-to=origin/dev dev
-指定本地dev分支与远程origin/dev分支的链接
 
 
 
-因此，多人协作的工作模式通常是这样：
+
+多人协作的工作模式通常是这样：
 
     首先，可以试图用git push origin <branch-name>推送自己的修改；
 

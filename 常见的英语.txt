@@ -1,5 +1,7 @@
 	
 	
+	POM 			project object model 项目对象模型
+	
 	invocation		调用，启用
 	
 	credential		信任凭证

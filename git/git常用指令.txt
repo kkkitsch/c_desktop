@@ -233,11 +233,9 @@ git branch -d 分支名称
 
 git branch -D 分支名称
 强制删除分支
-(
-在删除分支时，可以删除本地分支，也可以删除远程分支，
-删除远程分支时，分支名称为远程分支的名称即可
-例：git branch -d origin/dev，即代表要删除远程的dev分支
-)
+
+git branch -r -d 远程分支
+删除远程分支
 
 
 

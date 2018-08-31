@@ -1,6 +1,16 @@
 	
 	
+	马云，马化腾，马可波罗，马冬梅，马奶酒，马卡龙
+	
+	render			递交，给予
+	
 	POM 			project object model 项目对象模型
+	
+	exclusion		拒绝，排除
+	
+	survey			调查，检查
+	
+	duplicated		重复的，副本的
 	
 	invocation		调用，启用
 	

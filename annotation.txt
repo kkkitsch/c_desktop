@@ -1,0 +1,21 @@
+@ModelAttribute(value = "kkk")
+
+@SessionAttributes(value = { "name" }) 
+
+@RequestMapping("/*/antStyl?")
+
+@Controller	@Component
+
+@PathVariable(value = "id") int id
+
+@RequestParam(value = "id", required = true) Integer id
+
+@RequestHeader("Accept") String accept
+
+@CookieValue(value = "_ga") String _ga
+
+@RequestBody List<Person> person
+
+@ResponseBody
+
+@InitBinder

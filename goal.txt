@@ -1,76 +1,74 @@
-git，Linux
-
-maven
-
-mybatis 和spring的面试,整合
-
-反射 映射 代理模式
-
-http协议
-
-分布式
-
-OGNL
-
-
-
-什么是 W3C？
-
-    W3C 指万维网联盟（World Wide Web Consortium）
-    W3C 创建于1994年10月
-    W3C 由 Tim Berners-Lee 创建
-    W3C 是一个会员组织
-    W3C 的工作是对 web 进行标准化
-    W3C 创建并维护 WWW 标准
-    W3C 标准被称为 W3C 推荐（W3C 规范）
 	
-	W3C HTML 活动
-	W3C XHTML 活动
-	W3C XML 活动
-	W3C CSS 活动
-	W3C XSL 活动
-	W3C XML Schema 活动
-	W3C XPath 活动
-	W3C XQuery 活动
-	W3C DOM 活动
-	W3C SOAP 活动
-	W3C WSDL 活动
-	W3C RDF 活动
-	其他 W3C 活动 
-
-
-
 	
-typescript  
+	git，Linux
 
-TypeScript是一种由微软开发的自由和开源的编程语言。它是JavaScript的一个超集，
-而且本质上向这个语言添加了可选的静态类型和基于类的面向对象编程。安德斯·海尔
-斯伯格，C#的首席架构师，已工作于TypeScript的开发
+	maven
 
-TypeScript扩展了JavaScript的语法，所以任何现有的JavaScript程序可以不加改变
-的在TypeScript下工作。TypeScript是为大型应用之开发而设计，而编译时它产
-生JavaScript 以确保兼容性。
+	SSM整合，mybatis和springmvc的源码进行了解
 
-TypeScript 支持为已存在的 JavaScript 库添加类型信息的头文件，扩展了它对于流
-行的库如 jQuery，MongoDB，Node.js 和 D3.js 的好处。
+	反射 映射 代理模式
 
-背景
-TypeScript 起源于开发应用程序规模的 JavaScript 应用程序的需求。Microsoft的语言
-开发者们说内部以及外部的客户都表示他们构建 JavaScript 代码的问题。
-很多最终依赖于 JavaScript 的开发者通常用编译为 JavaScript 代码的另一种语言写脚本，
-例如 CoffeeScript 和 Script# (读作 ScriptSharp)。一个明显的劣势是也许无法从那另一
-种语言使用任何 JavaScript 的具体的语言特性，如果那种语言不支持它的话。
-在 Microsoft 内部，它导致了自定义工具以简化 JavaScript 组件的编写的需求。
+	http协议
 
-特性
-TypeScript 是一种给 JavaScript 添加特性的语言扩展。
-● 类型批注和编译时类型检查
-●类
-●接口
-●模块
-●lambda 函数
+	分布式
 
-开源
-TypeScript 是开源的，其源代码可以在 Apache 2 License 下从 CodePlex 获得。
-这个项目由 Microsoft 维持，但是任何人可以通过经 CodePlex 项目页发送反馈，
-建议和 bugfixes 而做出贡献。
+	什么是 W3C？
+
+		W3C 指万维网联盟（World Wide Web Consortium）
+		W3C 创建于1994年10月
+		W3C 由 Tim Berners-Lee 创建
+		W3C 是一个会员组织
+		W3C 的工作是对 web 进行标准化
+		W3C 创建并维护 WWW 标准
+		W3C 标准被称为 W3C 推荐（W3C 规范）
+		
+		W3C HTML 活动
+		W3C XHTML 活动
+		W3C XML 活动
+		W3C CSS 活动
+		W3C XSL 活动
+		W3C XML Schema 活动
+		W3C XPath 活动
+		W3C XQuery 活动
+		W3C DOM 活动
+		W3C SOAP 活动
+		W3C WSDL 活动
+		W3C RDF 活动
+		其他 W3C 活动 
+
+
+
+		
+	typescript  
+
+	TypeScript是一种由微软开发的自由和开源的编程语言。它是JavaScript的一个超集，
+	而且本质上向这个语言添加了可选的静态类型和基于类的面向对象编程。安德斯·海尔
+	斯伯格，C#的首席架构师，已工作于TypeScript的开发
+
+	TypeScript扩展了JavaScript的语法，所以任何现有的JavaScript程序可以不加改变
+	的在TypeScript下工作。TypeScript是为大型应用之开发而设计，而编译时它产
+	生JavaScript 以确保兼容性。
+
+	TypeScript 支持为已存在的 JavaScript 库添加类型信息的头文件，扩展了它对于流
+	行的库如 jQuery，MongoDB，Node.js 和 D3.js 的好处。
+
+	背景
+	TypeScript 起源于开发应用程序规模的 JavaScript 应用程序的需求。Microsoft的语言
+	开发者们说内部以及外部的客户都表示他们构建 JavaScript 代码的问题。
+	很多最终依赖于 JavaScript 的开发者通常用编译为 JavaScript 代码的另一种语言写脚本，
+	例如 CoffeeScript 和 Script# (读作 ScriptSharp)。一个明显的劣势是也许无法从那另一
+	种语言使用任何 JavaScript 的具体的语言特性，如果那种语言不支持它的话。
+	在 Microsoft 内部，它导致了自定义工具以简化 JavaScript 组件的编写的需求。
+
+	特性
+	TypeScript 是一种给 JavaScript 添加特性的语言扩展。
+	● 类型批注和编译时类型检查
+	●类
+	●接口
+	●模块
+	●lambda 函数
+
+	开源
+	TypeScript 是开源的，其源代码可以在 Apache 2 License 下从 CodePlex 获得。
+	这个项目由 Microsoft 维持，但是任何人可以通过经 CodePlex 项目页发送反馈，
+	建议和 bugfixes 而做出贡献。
